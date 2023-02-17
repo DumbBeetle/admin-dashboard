@@ -5,36 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c216083-67ea-4d69-bffe-ce68300c65ae" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-dashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/general.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/management.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/sales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/general.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/management.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/sales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/profile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/FlexBetween.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scenes/dashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scenes/layout/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/state/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +59,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\amida\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.16035183",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676528762695</updated>
       <workItem from="1676528764135" duration="8723000" />
+      <workItem from="1676624735596" duration="3296000" />
+      <workItem from="1676628169473" duration="111000" />
     </task>
     <servers />
   </component>
