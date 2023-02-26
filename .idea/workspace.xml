@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c216083-67ea-4d69-bffe-ce68300c65ae" name="Changes" comment="start">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scenes/layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/layout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,8 @@
       <workItem from="1676624735596" duration="3296000" />
       <workItem from="1676628169473" duration="111000" />
       <workItem from="1676705520857" duration="3382000" />
-      <workItem from="1677424489581" duration="1575000" />
+      <workItem from="1677424489581" duration="1698000" />
+      <workItem from="1677429732915" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1676639215254</created>
@@ -144,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677419699215</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="start">
+      <created>1677426388251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677426388251</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
