@@ -12,7 +12,6 @@ import salesRoutes from "./Routes/sales.js";
 // Data Imports
 import User from "./models/User.js";
 import { dataUser } from "./data/index.js";
-import user from "./models/User.js";
 
 // Configuration
 dotenv.config();
@@ -33,12 +32,9 @@ app.use("/sales", salesRoutes);
 // Mongoose Setup
 const PORT = process.env.PORT || 6001;
 mongoose
-  .connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(process.env.MONGO_URL, {})
   .then(() => {
     app.listen(PORT, () => console.log(`server Port: ${PORT}`));
-    User.insertMany(dataUser);
+    // User.insertMany(dataUser);
   })
   .catch((error) => console.log(`${error} did not connect`));
