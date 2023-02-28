@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c216083-67ea-4d69-bffe-ce68300c65ae" name="Changes" comment="start">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scenes/layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/layout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/general.js" afterDir="false" />
-    </list>
+    <list default="true" id="9c216083-67ea-4d69-bffe-ce68300c65ae" name="Changes" comment="start" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amida/Desktop/fullstack-admin-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amida/Coding/HTML/admin-dashboard/client&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,9 +50,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.16035183&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,13 +71,9 @@
       <workItem from="1676528764135" duration="8723000" />
       <workItem from="1676624735596" duration="3296000" />
       <workItem from="1676628169473" duration="111000" />
-      <workItem from="1676705520857" duration="3425000" />
-      <workItem from="1677259661212" duration="593000" />
-      <workItem from="1677315499774" duration="3599000" />
-      <workItem from="1677329873059" duration="1225000" />
-      <workItem from="1677331498762" duration="35000" />
-      <workItem from="1677338861559" duration="2329000" />
-      <workItem from="1677341351185" duration="51000" />
+      <workItem from="1676705520857" duration="3382000" />
+      <workItem from="1677424489581" duration="1698000" />
+      <workItem from="1677429732915" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1676639215254</created>
@@ -144,13 +132,34 @@
       <updated>1676707132882</updated>
     </task>
     <task id="LOCAL-00009" summary="start">
-      <created>1676733631579</created>
+      <created>1677419699215</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1676733631579</updated>
+      <updated>1677419699215</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="start">
+      <created>1677426388251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677426388251</updated>
+    </task>
+    <task id="LOCAL-00011" summary="start">
+      <created>1677430673889</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677430673889</updated>
+    </task>
+    <task id="LOCAL-00012" summary="start">
+      <created>1677430702472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677430702472</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
