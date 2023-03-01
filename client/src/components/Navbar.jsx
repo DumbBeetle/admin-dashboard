@@ -13,14 +13,14 @@ import { setMode } from "state";
 import profileImage from "assets/profile.jpeg";
 import {
   AppBar,
-  Box,
   Button,
+  Box,
+  Typography,
   IconButton,
   InputBase,
+  Toolbar,
   Menu,
   MenuItem,
-  Toolbar,
-  Typography,
   useTheme,
 } from "@mui/material";
 
@@ -32,6 +32,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
   const isOpen = Boolean(anchorEl);
   const handleClick = (event) => setAnchorEl(event.currentTarget);
   const handleClose = () => setAnchorEl(null);
+  console.log("user", user);
 
   return (
     <AppBar
@@ -47,7 +48,12 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
           <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             <MenuIcon />
           </IconButton>
-          <FlexBetween backgroundColor={theme.palette.background.alt} borderRadius="9px" gap="3rem" p="0.1rem 1.5rem">
+          <FlexBetween
+            backgroundColor={theme.palette.background.alt}
+            borderRadius="9px"
+            gap="3rem"
+            p="0.1rem 1.5rem"
+          >
             <InputBase placeholder="Search..." />
             <IconButton>
               <Search />
@@ -88,14 +94,23 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
                 sx={{ objectFit: "cover" }}
               />
               <Box textAlign="left">
-                <Typography fontWeight="bold" fontSize="0.85rem" sx={{ color: theme.palette.secondary[100] }}>
-                  {user.name}
+                <Typography
+                  fontWeight="bold"
+                  fontSize="0.85rem"
+                  sx={{ color: theme.palette.secondary[100] }}
+                >
+                  {user?.name}
                 </Typography>
-                <Typography fontSize="0.75rem" sx={{ color: theme.palette.secondary[200] }}>
-                  {user.occupation}
+                <Typography
+                  fontSize="0.75rem"
+                  sx={{ color: theme.palette.secondary[200] }}
+                >
+                  {user?.occupation}
                 </Typography>
               </Box>
-              <ArrowDropDownOutlined sx={{ color: theme.palette.secondary[300], fontsize: "25px" }} />
+              <ArrowDropDownOutlined
+                sx={{ color: theme.palette.secondary[300], fontSize: "25px" }}
+              />
             </Button>
             <Menu
               anchorEl={anchorEl}
